@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag triggerx1/crontab-ui:$(date +%s)
     - name: Dockedr Push
-      run: docker push ${{secrets.DOCKER_USER}}/crontab-ui
+      run: docker push ${{secrets.DOCKER_USER}}/crontab-ui:latest
