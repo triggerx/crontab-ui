@@ -16,7 +16,9 @@ RUN   apk --no-cache add \
       nodejs \
       npm \
       supervisor \
-      tzdata
+      tzdata \
+      lynx \
+      links
 
 COPY supervisord.conf /etc/supervisord.conf
 COPY . /crontab-ui
