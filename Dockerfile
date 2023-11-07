@@ -1,4 +1,4 @@
-# docker run -d -p 8000:8000 alseambusher/crontab-ui
+# docker run -d -p 8000:8000 triggerx1/crontab-ui
 FROM alpine:3.18.3
 
 ENV   CRON_PATH /etc/crontabs
